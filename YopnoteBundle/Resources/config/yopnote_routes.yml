@@ -1,0 +1,15 @@
+folder:
+    type: rest
+    resource: LPE\YopnoteBundle\Controller\FolderController
+    name_prefix: LEPYopnote_
+
+note:
+    type: rest
+    parent: folder
+    resource: LPE\YopnoteBundle\Controller\NoteController
+    name_prefix: LEPYopnote_
+
+Fav:
+    type: rest
+    resource: LPE\YopnoteBundle\Controller\FavController
+    name_prefix: LEPYopnote_
